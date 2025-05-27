@@ -32,3 +32,31 @@ INSERT INTO ord (cust_id, ord_number, ord_amount) VALUES
   (3,  'ORD003', 100.00),
   (4,  'ORD004', 30.25),
   (5,  'ORD005', 90.75)
+
+
+SELECT
+	f_name,
+	l_name
+FROM
+	cus
+ORDER BY
+	f_name ASC;
+
+SELECT
+       f_name,
+       l_name
+FROM
+       cus
+ORDER BY
+       l_name DESC;
+
+
+SELECT
+	cus_id,
+	f_name,
+	l_name
+FROM
+	cus
+ORDER BY
+	f_name ASC,
+	l_name DESC;
